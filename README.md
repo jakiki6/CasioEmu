@@ -1,5 +1,17 @@
 # CasioEmu
 
+**Note: this project is unmaintained.** (though small pull requests would still be merged.)
+
+It's been a long time since I last touch the repository, but here are some possibly useful information:
+
+* Other (more recently updated) projects:
+	* https://github.com/qiufuyu123/CasioEmuNeo
+	* https://github.com/Xyzstk/CasioEmuX
+* There's a pull request at https://github.com/user202729/CasioEmu/pull/11 to add fx-991CW (though you could just use https://github.com/Xyzstk/CasioEmuX directly)
+* There's a few more commits in https://github.com/user202729/CasioEmu/tree/tmp3, though I can't remember what it's for.
+
+------
+
 An emulator and disassembler for the CASIO calculator series using the nX-U8/100 core.
 
 ## Disassembler
