@@ -1,8 +1,8 @@
 project('emulator', 'cpp', version: '1.0.0')
 
-lua_dependency = dependency('lua53', required : false)
+lua_dependency = dependency('lua54', required : false)
 if not lua_dependency.found()
-	lua_dependency = dependency('lua5.3')
+	lua_dependency = dependency('lua-5.4')
 endif
 
 executable('emulator', sources: [
