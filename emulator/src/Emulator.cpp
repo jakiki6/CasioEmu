@@ -418,7 +418,8 @@ namespace casioemu
 		}
 		else
 		{
-			int status = lua_resume(thread, nullptr, 0, nullptr);
+            int buffer;
+			int status = lua_resume(thread, nullptr, 0, &buffer);
 			// * TODO Is it necessary to clear the stack?
 			if (status != LUA_OK && status != LUA_YIELD)
 				logger::Info("%s\n", lua_tostring(thread, -1));
